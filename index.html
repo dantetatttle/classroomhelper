@@ -1,88 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesy Dih-Math</title>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-    <link rel="apple-touch-icon" href="/favicon.png">
-    <script>
-        window.addEventListener('beforeunload', function (event) {
-            event.preventDefault();
-            event.returnValue = '';
-            return 'Are you sure you want to leave? Any unsaved changes will be lost.';
-        });
-    </script>
-    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5521219086088837" crossorigin="anonymous"></script>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WX5VS54ZDW"></script>
-    <meta name="google-adsense-account" content="ca-pub-5521219086088837">
+
+    <!-- SEO & Social -->
+    <meta name="description" content="Play fun, free, unblocked games like Crazy Cattle 3D and DriveMad on Cheesy Dih-Math!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dantetatttle.github.io/mathgames67/">
+    <meta property="og:title" content="Cheesy Dih-Math">
+    <meta property="og:description" content="Play fun, free, unblocked games like Crazy Cattle 3D and DriveMad on Cheesy Dih-Math!">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://dantetatttle.github.io/mathgames67/">
+    <meta name="twitter:title" content="Cheesy Dih-Math">
+    <meta name="twitter:description" content="Play fun, free, unblocked games like Crazy Cattle 3D and DriveMad on Cheesy Dih-Math!">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Analytics & Ads -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX5VS54ZDW"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-WX5VS54ZDW');
     </script>
-    <script async src="https://fundingchoicesmessages.google.com/i/pub-5521219086088837?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
-    <script src="https://cdn.jsdelivr.net/gh/gn-math/gn-math.github.io@main/gnmath.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gn-math</title>
-    <meta name="title" content="GN-Math">
-    <meta name="description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gn-math.github.io/">
-    <meta property="og:title" content="GN-Math">
-    <meta property="og:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://gn-math.github.io/">
-    <meta name="twitter:title" content="GN-Math">
-    <meta name="twitter:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Unsaved changes warning -->
+    <script>
+        window.addEventListener('beforeunload', function(event) {
+            event.preventDefault();
+            event.returnValue = '';
+        });
+    </script>
 </head>
 <body class="dark-mode">
+
+    <!-- Header -->
     <header>
         <div class="header-content">
-            <div class="logo">gn-math</div>
+            <div class="logo">
+                <img src="favicon.png" alt="Cheesy Dih-Math Logo" class="logo-icon">
+                Cheesy Dih-Math
+            </div>
+
             <div class="search-container">
                 <input type="text" id="searchBar" placeholder="Search zones..." oninput="filterZones()">
                 <select id="sortOptions" onchange="sortZones()">
                     <option value="name">Name</option>
-                    <option value="id">ID (Date)</option>
+                    <option value="id">Date</option>
                     <option value="popular">Popular</option>
                 </select>
             </div>
+
             <div class="control-buttons">
-                <button id="settings" style="background-color: var(--primary-color); color: white; border: none; border-radius: 4px; padding: 0.5rem 1rem; font-size: 16px; cursor: pointer;">Settings</button>
+                <button id="settings" class="btn-primary">Settings</button>
             </div>
         </div>
     </header>
-    <ins class="adsbygoogle"
-    style="display:block; text-align:center;"
-    data-ad-client="ca-pub-5521219086088837"
-    data-ad-slot="5549138288"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-   <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-   </script>
 
+    <!-- Banner / Mascot -->
+    <section class="banner">
+        <img src="cheesydihdef.png" alt="Cheesy Dih Mascot" class="mascot">
+        <h1>Welcome to Cheesy Dih-Math!</h1>
+        <p>Play fun, free, unblocked games anytime, anywhere!</p>
+    </section>
+
+    <!-- Main content -->
     <main>
         <details id="featuredZonesWrapper" open>
-            <summary id="allZonesSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">Featured Zones</summary>
+            <summary>⭐ Featured Zones</summary>
+
+            <div class="zone" data-id="ZONE_ID" data-author="ZONE_AUTHOR">
+                <h3 class="zone-title">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoZ912EWSQcACA1XktvrkbtX85wZi5Jw7-6gX2PGlwx6vl7Q/viewform?usp=header" target="_blank">GAME SUGGESTIONS</a>
+                </h3>
+                <p class="zone-author">by <a href="#" target="_blank">Cheesy Dih-Math Devs</a></p>
+            </div>
+
             <div id="featuredZones" class="zone-container"></div>
         </details>
-        <br><hr><br>
+
         <details id="allZonesWrapper" open>
-            <summary id="allSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">All Zones</summary>
+            <summary>📂 All Zones</summary>
             <div id="container">Loading...</div>
         </details>
     </main>
 
+    <!-- Zone viewer -->
     <div id="zoneViewer">
         <div class="zone-header">
             <div class="zone-title">
-                <h2 id="zoneName">zone</h2>
+                <h2 id="zoneName">Zone Name</h2>
                 <span id="zoneId" style="display: none;"></span>
                 <a id="zoneAuthor" href="#" target="_blank">by Author</a>
             </div>
@@ -96,43 +111,36 @@
         <iframe id="zoneFrame"></iframe>
     </div>
 
+    <!-- Popups -->
     <div id="popupOverlay">
         <div class="popup">
             <div class="popup-header">
                 <h3 id="popupTitle">Title</h3>
                 <button id="popupClose" onclick="closePopup()">×</button>
             </div>
-            <div id="popupBody">
-                Content will be here
-            </div>
+            <div id="popupBody">Content will appear here</div>
         </div>
     </div>
 
-    <ins class="adsbygoogle"
-    style="display:block; text-align:center;"
-    data-ad-client="ca-pub-5521219086088837"
-    data-ad-slot="5549138288"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-   <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-   </script>
+    <!-- Footer -->
     <footer>
         <div class="footer-links">
+            <a href="#" onclick="loadDMCA(); return false;">DMCA</a>
             <a href="#" onclick="showContact(); return false;">Contact</a>
             <a href="#" onclick="loadPrivacy(); return false;">Privacy Policy</a>
             <a href="javascript:saveData()">Export Data</a>
             <a href="#" onclick="document.getElementById('importData').click(); return false;">Import Data</a>
             <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
         </div>
+        <p>© 2025 Cheesy Dih-Math</p>
     </footer>
+
+    <!-- Scripts -->
     <script src="script.js"></script>
     <script>
         const search = new URLSearchParams(window.location.search);
-        const privacy = search.get('privacy');
-        if (privacy) {
-            loadPrivacy();
-        }
+        if (search.get('privacy')) loadPrivacy();
     </script>
 </body>
 </html>
+
